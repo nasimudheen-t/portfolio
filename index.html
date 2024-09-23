@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./first.css" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link     
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nerko+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+CU:wght@100..400&family=Protest+Guerrilla&display=swap"
+      rel="stylesheet"
+    />
+    <!-- animate style -->
+    <head>
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      />
+      <!-- aos animation -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    </head>
+  </head>
+
+  <body>
+    <div id="container">
+      <!-- navbar -->
+      <nav>
+        <!-- logo -->
+        <img
+          class="logo"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtFBzkzW1oSSqcEB0Rq_4Nia5HsOHB7RTOVw&s"
+          alt="no images"
+        />
+        <!-- links -->
+        <ul>
+          <li class="list-items"><a class="list" href="#home">home</a></li>
+          <li class="list-items"><a class="list" href="#about">about</a></li>
+          <li class="list-items"><a class="list" href="#skill">skills</a></li>
+          <li class="list-items"><a class="list" href="#contact">contact</a></li>
+        </ul>
+      </nav>
+      <!-- home -->
+      <section id="home">
+        <div class="home-content">
+          <h1 class="animate__animated animate__fadeInTopLeft" id="username">i'm nasim <span id="lname">mlp</span></h1>
+          <p id="user-details">
+            This is my official portfolio website to describe all
+            <br />
+            Deatils and work experience in web devolpment
+          </p>
+          <a id="download" href="./images/Nasimudheen.pdf" download=""
+            >DOWNLOAD CV</a
+          >
+        </div>
+        <!-- home-image -->
+        <div class="home-img">
+          <!-- shape -->
+          <img id="shape" class="group1" src="./images/shape1.png" alt="" />
+          <!-- girl -->
+          <img id="girl" class="group1" src="./images/girl.png" alt="" />
+        </div>
+      </section>
+      <!-- about -->
+      <section id="about">
+        <div class="sectionHead">
+          <h1 id="mainHead">About Me</h1>
+          <span id="subHead">introduction</span>
+        </div>
+        <div class="aboutbody">
+          <div data-aos="fade-right">
+            <img class="img1" src="./images/futuristic-football-soccer-player-with-glowing-lights-removebg-preview.png " alt="no image" />
+          </div>
+          <div class="aboutContent">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde
+              quos vel illum veniam corrupti dolor nihil laboriosam ex et
+              quibusdam, minima exercitationem facilis magni ipsum ducimus quis
+              illo
+            </p>
+            <div class="informations">
+              <div class="infobox">
+                <i class="fa-solid fa-user"></i>
+              <span>nasim</span> </div>
+              <div class="infobox">
+                <i class="fa-solid fa-phone"></i>
+              <span>9857477584</span> </div>
+              <div class="infobox">
+                <i class="fa-solid fa-envelope"></i>
+              <span>nasim12@gamil.com</span> </div>
+          </div>
+        </div>
+      </section>
+      <!-- skill -->
+      <section id="skill">
+        <div class="sectionHead"> 
+          <h2 id="mainHead">Skills</h2>
+          <span id="subHead">My Skills</span>
+          </div>
+        <div class="skillContent">
+          <div class="progressbars">
+    
+            <div class="bars">
+                <h3 class="mainHead">HTML</h3>
+                <span class="barPersentage">89%</span>
+                <div class="baseBar"></div>
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="baseBar htmlBar"></div>
+              
+            </div>
+            <div class="bars">
+                <h3 class="mainHead">CSS</h3>
+                <span class="barPersentage">94%</span>
+                <div class="baseBar"></div>
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="baseBar cssBar"></div>
+              
+            </div>
+            <div class="bars">
+                <h3 class="mainHead">REACT</h3>
+                <span class="barPersentage">66%</span>
+                <div class="baseBar"></div>
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="baseBar reactBar"></div>
+              
+            </div>
+              <div class="bars">
+                <h3 class="mainHead">JS</h3>
+                <span class="barPersentage">72%</span>
+                <div class="baseBar"></div>
+                <div data-aos="fade-right"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine" class="baseBar jsBar"></div>            
+            </div>
+          </div>
+          <div class="Skillimage"  data-aos="fade-down-left">
+            <img width="100%" class="myskill" src="./images/skill.jpeg" alt="">
+          </div>
+        </div>
+    </section>
+      
+       </section>
+      <!-- contact -->
+      <section id="contact">
+        <div class="sectionHead"> 
+          <h2 id="mainHead">contacts</h2>
+          <span id="subHead">My conts</span>
+          </div>
+          <div class="iconscolle">
+            <!-- linkedin -->
+             <div class="icons">
+              <a href="" target="_blank"><i class="fa-brands fa-linkedin brands"></i></a>
+             </div>
+             <!-- github -->
+             <div class="icons">
+              <a href="" target="_blank"><i class="fa-brands fa-square-github brands"></i></i></a>
+             </div>
+              <!-- twitter -->
+              <div class="icons">
+                <a href="" target="_blank"><i class="fa-brands fa-twitter brands"></i></a>
+               </div>
+               <!-- facebook -->
+               <div class="icons">
+                <a href="" target="_blank"><i class="fa-brands fa-facebook brands"></i></a>
+               </div>
+                <!-- mail -->
+                <div class="icons">
+                  <a href="" target="_blank"><i class="fa-solid fa-envelope brands"></i></a>
+                 </div>
+                 <!-- instagram -->
+                 <div class="icons">
+                  <a href="https://www.instagram.com/nasym_._?igsh=aGU0aHZiNHk4bndl" target="_blank"><i class="fa-brands fa-instagram brands"></i></a>
+                 </div>
+          </div>
+          </section>
+      <!--footer  -->
+      <footer>
+        <p id="copy">&copy;my website portfolio &reg;nasim</p>
+        <div class="icons uparrow">
+          <a href="#container" target="_blank"><i class="fa-solid fa-angle-up brands"></i></a>
+         </div>
+      </footer>
+    </div>
+  </body>
+  <!-- aos script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

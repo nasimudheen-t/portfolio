@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://127.0.0.1:5500/real.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+<link rel="stylesheet" href="./real2_files/real.css"><link rel="stylesheet" href="./real2_files/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link type="text/css" rel="stylesheet" href="./real2_files/css2"></head>
+<body>
+    <div class="container">
+        <!-- navbar -->
+        <div class="navrbar">
+            <div class="logo"><img class="reallogo" src="./real2_files/blacklogo.jpg" alt=""></div>
+            <nav class="move">
+                <ul class="items">
+                    <li class="list-items">Home</li>
+                    <li class="list-items">products</li>
+                    <li class="list-items">trophies</li>
+                    <li class="list-items">players</li>
+                    <li class="list-items">fixturs</li>
+                    <li class="list-items">jersy</li>
+                    <li class="list-items">more</li>
+                  </ul>
+            </nav>
+        </div>
+        <!-- header -->
+         <div class="head">
+             <header class="header">
+              <div class="text">
+                    <h1>real madrid legends</h1>
+                    <br>
+              </div>
+             </header>
+    
+    <!-- imagesection1 -->
+     <div class="margin">
+         <div class="images">
+            <div class="img">
+                <img class="pic" src="./real2_files/zidan.jpg" alt="">
+                <h4>Zinedine Zidane
+                </h4>
+            </div>
+            <div class="img">
+                <img height="330px" class="pic" src="./real2_files/rc.jpg" alt="">
+                <h4>Roberto Carlos</h4>
+            </div>
+            <div class="img">
+                <img height="330px" class="pic" src="./real2_files/ramos.jpg" alt="">
+                <h4>Sergio Ramos</h4>
+            </div>
+           
+         </div>
+             <!-- imagesection2 -->
+         <div class="images2">
+            <div class="img2">
+                <img height="330px" src="./real2_files/figo.webp" alt="">
+                <h4>Luís Figo</h4>
+            </div>
+            <div class="img2">
+                <img height="330px" src="./real2_files/ozil.jpg" alt="">
+                <h4>Mesut Özil</h4>
+            </div>
+            <div class="img2">
+                <img height="330px" src="./real2_files/modrc.webp" alt="">
+                <h4>Luka Modrić</h4>
+            </div>
+         </div>
+            <!-- imagesection3 -->
+            <div class="images3">
+                <div class="img3">
+                    <img src="./real2_files/cris.jpg" alt="">
+                    <h4>Cristiano Ronaldo</h4>
+                </div>
+                <div class="img3">
+                    <img height="360px" src="./real2_files/bale.webp" alt="">
+                    <h4>Gareth Bale</h4>
+                </div>
+                <div class="img3">
+                    <img height="360px" src="./real2_files/beckham.webp" alt="">
+                    <h4>David Beckham</h4>
+                </div>
+             </div>
+     </div>
+         <!-- footer -->
+          <div class="footer">
+            <div class="icons">
+                <h2>your logo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur <br> adipisicing elit. Quaeratbr
+                    <br> vel inventore dicta enim quia provident ut et repell.</p><br>
+                <i class="fa-regular fa-envelope"></i>
+                <span>tfy@gmail.com</span><br>
+                <i class="fa-solid fa-phone"></i>
+                <span>7868689709</span><br>
+                <i class="fa-solid fa-location-dot"></i>
+                <span>ntfbyutfn</span>
+            </div>
+            <div class="post">
+                <h3>bellingham</h3>
+                <h3>rodrygo</h3>
+                <h3>vinicious</h3>
+                <h3>mpappe</h3>
+            </div>
+            <div class="insta">
+                <img class="trophi" src="./real2_files/trophi.jpeg" alt=""><img class="trophi" src="./real2_files/trophi.jpeg" alt=""><img class="trophi" src="./real2_files/trophi.jpeg" alt="">
+            </div>
+            <div class="twitter">
+                <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Magnam molestiae ea tempora <br> ipsam voluptate iusto fugiat !</p>
+            </div>
+
+          </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</div></div><span id="PING_CONTENT_DLS_POPUP" style="display: none;"></span><div style="background-color: transparent; border: none; bottom: 15px; display: block; margin: 0px; opacity: 1; padding: 0px; position: fixed; right: 15px; z-index: 2147483647;"><template shadowrootmode="closed"><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2024 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&display=swap);
+*{border:0;box-sizing:border-box;font:inherit;font-family:"mcafeeOpenSans","Poppins",Helvetica,Arial,Arial,Helvetica,sans-serif;font-size:100%;margin:0;padding:0;vertical-align:baseline;outline:none}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html,body{background-color:#f5f6fa;font-family:"Poppins",Helvetica,Arial,"mcafeeOpenSans",Arial,Helvetica,sans-serif;line-height:1;height:100%;width:100%}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}b{font-weight:bold}img{display:block}.dls__container{align-items:center;display:flex;margin:0 auto;margin-top:50px;position:relative}.dls__popup__expanded{align-items:center;overflow:hidden;border-radius:100px;cursor:pointer;display:flex;left:0;padding:15px;position:absolute;height:95px;width:383px;background-color:#fff;transition:all .3s ease-in-out}.dls__popup__expanded .dls__icon{height:65px;width:73px}.content{margin-left:12px}.content .content__images{display:flex;align-items:center;width:250px}.content .content__images .seperator__line{margin-left:5px;margin-right:10px}.content .content__images #dls_close_icon{cursor:pointer;margin-left:auto;margin-right:0px}.content p{font-family:"Poppins",Arial,Helvetica,sans-serif;font-weight:"400";font-size:14px;line-height:20px;margin-top:8px;color:#4258ff;width:250px;cursor:pointer}.shield{overflow:hidden;box-shadow:0px 2px 4px 0px rgba(33,41,52,.12),0px -1px 2px 0px rgba(0,0,0,.08);align-items:center;border-radius:100px;bottom:0;display:flex;height:95px;justify-content:center;position:absolute;right:0;width:383px;transition:all .3s ease-in-out}.shield__circle{display:flex;justify-content:center;align-items:center;width:55px;height:55px;background-color:#c01818;transition:all .6s ease-in-out .2s;z-index:1;opacity:0}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/download_scan_popup.css.map*/</style><div class="dls__container">
+  <div class="shield" style="background: transparent; opacity: 0.1; display: none;">
+    <div class="shield__circle" style="opacity: 1;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_white.svg?secret=n8314b" x-mcsrc="" id="dls_ballon_icon" x-mcsrcparsed="true">
+    </div>
+    <div class="dls__popup__expanded" style="opacity: 0;">
+      <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/download_scan_icon.svg?secret=n8314b" x-mcsrc="" class="dls__icon" x-mcsrcparsed="true">
+      <div class="content">
+        <div class="content__images">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/mcafee_logo_red.svg?secret=n8314b" x-mcsrc="" id="dls_mcafee_logo" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/seperator_line.svg?secret=n8314b" x-mcsrc="" class="seperator__line" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/webadvisor.svg?secret=n8314b" x-mcsrc="" x-mcsrcparsed="true">
+          <img src="chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/images/download_scan/close-outline.svg?secret=n8314b" x-mcsrc="" id="dls_close_icon" x-mcsrcparsed="true">
+        </div>
+        <p id="download_scan_popup_expanded_descriptions">Your download's being scanned. We'll let you know if there's an issue.</p>
+      </div>
+    </div>
+  </div>
+</div><style>/*!
+ * 
+ *     MCAFEE RESTRICTED CONFIDENTIAL
+ *     Copyright (c) 2024 McAfee, LLC
+ *
+ *     The source code contained or described herein and all documents related
+ *     to the source code ("Material") are owned by McAfee or its
+ *     suppliers or licensors. Title to the Material remains with McAfee
+ *     or its suppliers and licensors. The Material contains trade
+ *     secrets and proprietary and confidential information of McAfee or its
+ *     suppliers and licensors. The Material is protected by worldwide copyright
+ *     and trade secret laws and treaty provisions. No part of the Material may
+ *     be used, copied, reproduced, modified, published, uploaded, posted,
+ *     transmitted, distributed, or disclosed in any way without McAfee's prior
+ *     express written permission.
+ *
+ *     No license under any patent, copyright, trade secret or other intellectual
+ *     property right is granted to or conferred upon you by disclosure or
+ *     delivery of the Materials, either expressly, by implication, inducement,
+ *     estoppel or otherwise. Any license under such intellectual property rights
+ *     must be expressed and approved by McAfee in writing.
+ *
+ */
+.mc-interactive-balloon{position:absolute;right:-50px;bottom:8px;box-shadow:rgba(0,0,0,.12) 0px 0px 10px;height:40px;width:40px;background:#1671ee;border-radius:20px;display:flex;justify-content:center;align-items:center}
+
+/*# sourceMappingURL=../sourceMap/chrome/css/interactive_balloon.css.map*/</style></template></div></body></html>
